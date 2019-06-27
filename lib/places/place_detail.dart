@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:async/async.dart';
 
-const kGoogleApiKey = "AIzaSyDP6DhNRTYdhvPNFP5TfcY72gI91KeXSiA";
+const kGoogleApiKey = "****************";
 GoogleMapsPlaces _places = GoogleMapsPlaces(apiKey: kGoogleApiKey);
 class PlaceDetailWidget extends StatefulWidget {
   String placeId;
