@@ -7,7 +7,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_nearby_places/places/place_detail.dart';
 import 'dart:math' show cos, sqrt, asin;
 import 'package:google_nearby_places/modal/distance.dart';
-const kGoogleApiKey = "*************" ;
+const kGoogleApiKey = "AIzaSyDP6DhNRTYdhvPNFP5TfcY72gI91KeXSiA" ;
 GoogleMapsPlaces _places = GoogleMapsPlaces(apiKey: kGoogleApiKey);
 
 void main() {
